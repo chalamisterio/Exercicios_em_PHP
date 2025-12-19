@@ -11,7 +11,7 @@
     $a =isset($_GET["nota1"])?$_GET["nota1"]:$o= "Nota1 não digitada";
     $b =isset($_GET["nota2"])?$_GET["nota2"]:$o= "Nota não digitada";
     $c= ($a+$b)/2;
-    echo"A média entre a nota 1: <strong style=color:#FF0000>$a</strong> e a nota 2: <strong style=color:#FF0000>$b</strong> é : <strong style=color:#FF0000>$c</strong> "
+    echo"A média entre a nota 1: <strong style=color:#FF0000;>$a</strong> e a nota 2: <strong style=color:#FF0000>$b</strong> é : <strong style=color:#FF0000>$c</strong> "
     
     
     
